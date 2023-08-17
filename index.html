@@ -1,1 +1,107 @@
-<h1>realbenz-protocol</h1>
+<!doctype html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="/favicon.ico" />
+    <title>RealBenZ Meme Land</title>
+    <meta name="title" content="RealBenZ Meme Land" />
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/reset-css@5.0.1/reset.css" />
+    <style>
+      * {
+        box-sizing: border-box;
+      }
+      img {
+        display: block;
+        outline: none;
+      }
+      a,
+      a:link,
+      a:visited,
+      a:hover,
+      a:active {
+        text-decoration: none;
+        color: inherit;
+        backface-visibility: hidden;
+      }
+      :root {
+        overflow-x: hidden;
+        overflow-y: auto;
+      }
+      body {
+        background: #000;
+      }
+      .main {
+        position: relative;
+        width: 100%;
+      }
+      .main img {
+        user-select: none;
+        pointer-events: none;
+      }
+      .main a {
+        position: absolute;
+        user-select: none;
+        cursor: pointer;
+        transition: all 0.3s ease-in-out;
+        z-index: 2;
+      }
+      .main a:hover {
+        backdrop-filter: blur(1px);
+        box-shadow:
+          0 0 0 5px rgba(251, 208, 1, 0.8),
+          0 0 0 12px rgba(255, 16, 0, 0.8),
+          0 0 0 18px rgba(60, 250, 2, 0.8),
+          0 0 0 24px rgba(52, 55, 186, 0.8);
+      }
+      .realbenz {
+        width: 100%;
+      }
+      .go {
+        top: 91.3vw;
+        right: 12vw;
+        width: 32.5vw;
+        height: 6.8vw;
+        transform: rotateZ(1.3deg);
+      }
+      .buy {
+        width: 32.5vw;
+        height: 6.8vw;
+        top: 99.07vw;
+        right: 12.34vw;
+        transform: rotateZ(2.78deg);
+      }
+      .head {
+        position: absolute;
+        top: 32vw;
+        right: 33vw;
+        width: 22vw;
+        transform: rotateZ(5deg);
+      }
+      .pizza {
+        position: absolute;
+        top: 254.6vw;
+        left: 3vw;
+        width: 32vw;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="main">
+      <img class="head" src="./images/head.gif" alt="icon" />
+      <img class="pizza" src="./images/pizza.gif" alt="icon" />
+      <img class="realbenz" src="./images/realbenz_01.jpg" alt="icon" />
+      <img class="realbenz" src="./images/realbenz_02.jpg" alt="icon" />
+      <img class="realbenz" src="./images/realbenz_03.jpg" alt="icon" />
+      <img class="realbenz" src="./images/realbenz_04.jpg" alt="icon" />
+      <img class="realbenz" src="./images/realbenz_05.jpg" alt="icon" />
+      <img class="realbenz" src="./images/realbenz_06.jpg" alt="icon" />
+      <img class="realbenz" src="./images/realbenz_07.jpg" alt="icon" />
+      <img class="realbenz" src="./images/realbenz_08.jpg" alt="icon" />
+      <img class="realbenz" src="./images/realbenz_09.jpg" alt="icon" />
+      <img class="realbenz" src="./images/realbenz_10.jpg" alt="icon" />
+      <a class="go" href="https://www.google.com/" target="_blank"></a>
+      <a class="buy" href="https://www.google.com/" target="_blank"></a>
+    </div>
+  </body>
+</html>
